@@ -1,7 +1,7 @@
 
 // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
-
+$container-large-desktop: (985px);
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
@@ -14,4 +14,48 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
 img {
   max-width: 100%;
+}
+
+
+
+.header {
+  height: 75px;
+  width: 100%;
+  background-color: #009999;
+}
+
+.footer {
+  height: 75px;
+  width: 100%;
+  background-color: #009999;
+}
+
+.container{
+  background-color: #ccffff;
+
+}
+
+body {
+  background-color: #ccffff;
+}
+
+.one {
+  margin-top: 35px;
+}
+
+.two {
+  margin-top: 35px;
+}
+
+.three {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.footer {
+  margin-top: 250px;
+}
+
+.comment-button {
+  background-color: white;
 }
